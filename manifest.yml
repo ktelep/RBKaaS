@@ -1,0 +1,4 @@
+applications:
+- name: RBKaaS
+  scale: 2
+  memory: 128MB
