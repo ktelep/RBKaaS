@@ -3,7 +3,7 @@ from StringIO import StringIO
 from flask import Flask, send_file
 import os
 
-port = os.getenv('VCAP_APP_PORT', '4999')
+port = os.getenv('PORT', '4999')
 
 def serve_pil_image(pil_img):
     img_io = StringIO()
